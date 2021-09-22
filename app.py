@@ -11,7 +11,7 @@ app = dash.Dash(__name__)
 
 # assume you have a "long-form" data frame
 # see https://plotly.com/python/px-arguments/ for more options
-df = pd.read_csv("C:/Users/sarve/Documents/DataViz/dataset/Hotel_Reviews.csv")
+df = pd.read_csv("./dataset/Hotel_Reviews.csv")
 
 
 
